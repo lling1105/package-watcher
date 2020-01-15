@@ -1,0 +1,29 @@
+{
+  "name": "package-watcher",
+  "version": "1.0.0",
+  "description": "watch package.json changes and execute 'npm install'",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lling1105/package-watcher.git"
+  },
+  "keywords": [
+    "package.json",
+    "npm",
+    "node.js"
+  ],
+  "author": "linglu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lling1105/package-watcher/issues"
+  },
+  "homepage": "https://github.com/lling1105/package-watcher#readme",
+  "dependencies": {
+    "chokidar": "^3.3.1",
+    "node-cmd": "^3.0.0"
+  }
+}
